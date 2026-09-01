@@ -3,7 +3,7 @@
 # Given:
 
 numbers = [2, 5, 8, 12, 16, 23, 38, 56]
-target = 23
+target = 232
 
 numbers.sort() # i know they are sorted but a real life question might not do me such a beautiful gesture
 # Write a binary search that prints: Found
@@ -26,6 +26,7 @@ while low <= high:
         high = mid - 1
     elif (numbers[mid] < target):
         low = mid +1
-    else:
-        print ("number is not here")
+
+else:
+    print ("target number is not here")
 
