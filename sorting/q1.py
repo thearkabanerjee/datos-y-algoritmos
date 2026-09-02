@@ -24,6 +24,7 @@ def selection_sort(numbers):
 
         numbers[min_index], numbers[i] = numbers[i],numbers[min_index]
 
+    
     return numbers
 
 print (selection_sort(numbers))
